@@ -34,7 +34,7 @@ console.log(shoppingList, Gin);
 /*3. Use the force, or in this case the reverse method to help Yoda make some sense with his motivational talk to the young Jedi interns.*/
 
 var yoda = ["try", "no", "is", "there", "not", "do", "or", "do"];
-var reverse = yoda.reverse()
+var reverse = yoda.reverse()//don't need to create a variable for reverse since there is no output 
 console.log(yoda)
 console.log(reverse)
 
@@ -52,8 +52,11 @@ console.log(waitList,nowServing);
 
 /*5. Apparently, you didn't do a good job with crowd control in the previous exercise. Kanye just cut in front of everyone!. Add Kanye to the waitList array above. Console.log waitList*/
 
+var lengthOfArray = waitList.unshift("Kanye");
 
+console.log(lengthOfArray);
 
+console.log(waitList);
 /*The array.splice() adds and/or removes elements from an array.
 array.splice(index, how many items to be removed)*/
 
